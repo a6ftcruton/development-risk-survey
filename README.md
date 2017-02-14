@@ -20,4 +20,7 @@
   - is this project dependent on features in other applications?
   - will this require migrations and/or backfilling data?
   - what is the potential for scope creep?
-
+- Security
+  - what are potential exploits?
+  - are we exposing any data we don't need to be? (email, address, etc.)
+  - is the api and the link authenticated to protect against url trolling?
